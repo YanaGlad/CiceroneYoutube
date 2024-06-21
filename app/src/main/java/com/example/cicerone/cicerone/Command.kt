@@ -1,4 +1,4 @@
-package com.example.demodaggercicerone.cicerone
+package com.example.cicerone.cicerone
 
 /**
  * @author y.gladkikh

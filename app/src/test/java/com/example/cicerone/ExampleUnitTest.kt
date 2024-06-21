@@ -1,4 +1,4 @@
-package com.example.demodaggercicerone
+package com.example.cicerone
 
 import org.junit.Test
 

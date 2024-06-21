@@ -1,8 +1,6 @@
-package com.example.demodaggercicerone.cicerone
+package com.example.cicerone.cicerone
 
-import android.util.Log
 import androidx.fragment.app.Fragment
-import com.example.demodaggercicerone.SCREEN_PROVIDERS
 
 /**
  * @author y.gladkikh

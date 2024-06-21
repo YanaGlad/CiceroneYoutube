@@ -1,4 +1,4 @@
-package com.example.demodaggercicerone.cicerone
+package com.example.cicerone.cicerone
 
 import android.app.Activity
 

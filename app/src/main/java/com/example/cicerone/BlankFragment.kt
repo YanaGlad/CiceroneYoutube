@@ -1,4 +1,4 @@
-package com.example.demodaggercicerone
+package com.example.cicerone
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,7 +1,7 @@
-package com.example.demodaggercicerone.cicerone
+package com.example.cicerone.cicerone
 
 import androidx.appcompat.app.AppCompatActivity
-import com.example.demodaggercicerone.R
+import com.example.cicerone.R
 import java.util.Stack
 
 /**
