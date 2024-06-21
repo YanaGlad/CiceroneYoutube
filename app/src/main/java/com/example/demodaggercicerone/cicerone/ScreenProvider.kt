@@ -1,5 +1,6 @@
 package com.example.demodaggercicerone.cicerone
 
+import android.util.Log
 import androidx.fragment.app.Fragment
 import com.example.demodaggercicerone.SCREEN_PROVIDERS
 
@@ -8,19 +9,19 @@ import com.example.demodaggercicerone.SCREEN_PROVIDERS
  */
 class ScreenProvider(screenAdapters: Map<Class<out Screen>, FragmentScreenAdapter>) {
 
-    private val screens: MutableList<Pair<Class<out Screen>, FragmentScreenAdapter>> = mutableListOf()
+    private val screens: MutableMap<Class<out Screen>, FragmentScreenAdapter> = mutableMapOf()
 
     init {
         screenAdapters.forEach { (screen, adapter) ->
-            screens.add(Pair(screen, adapter))
+            screens[screen] = adapter
         }
     }
 
     fun addAdapter(screen: Screen, adapter: FragmentScreenAdapter) {
-        screens.add(Pair(screen::class.java, adapter))
+        screens[screen.screenKey()] = adapter
     }
 
-    fun getScreen(screen: Screen): Fragment {
-        return requireNotNull(SCREEN_PROVIDERS[screen.screenKey()]?.create()) { "screen not found" }
+    fun getScreen(matcher: Screen): Fragment {
+        return requireNotNull(screens[matcher.screenKey()]?.create()) { "screen not found" }
     }
 }

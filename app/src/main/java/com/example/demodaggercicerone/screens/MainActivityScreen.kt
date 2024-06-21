@@ -6,4 +6,4 @@ import com.example.demodaggercicerone.cicerone.Screen
 /**
  * @author y.gladkikh
  */
-class MainActivityScreen : Screen
+object MainActivityScreen : Screen
