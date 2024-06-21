@@ -2,9 +2,9 @@ package com.example.demodaggercicerone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.demodaggercicerone.cicerone.BlankFragmentScreen
 import com.example.demodaggercicerone.cicerone.Router
 import com.example.demodaggercicerone.cicerone.ScreenProvider
+import com.example.demodaggercicerone.screens.BlankFragmentScreen
 
 class MainActivity : AppCompatActivity() {
 

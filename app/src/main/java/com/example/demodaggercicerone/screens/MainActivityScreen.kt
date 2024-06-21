@@ -1,4 +1,4 @@
-package com.example.demodaggercicerone
+package com.example.demodaggercicerone.screens
 
 import com.example.demodaggercicerone.cicerone.Screen
 

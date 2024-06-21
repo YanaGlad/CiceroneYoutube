@@ -1,9 +1,8 @@
 package com.example.demodaggercicerone
 
-import com.example.demodaggercicerone.cicerone.BlankFragmentScreen
 import com.example.demodaggercicerone.cicerone.Screen
 import com.example.demodaggercicerone.cicerone.FragmentScreenAdapter
-import com.example.demodaggercicerone.BlankFragment
+import com.example.demodaggercicerone.screens.BlankFragmentScreen
 
 /**
  * @author y.gladkikh
