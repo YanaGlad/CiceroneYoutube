@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.example.cicerone.cicerone.Router
 import com.example.cicerone.cicerone.ScreenProvider
 import com.example.cicerone.screen.BlankFragmentScreen
-import com.example.demodaggercicerone.R
+import com.example.cicerone.R
 
 class MainActivity : AppCompatActivity() {
 

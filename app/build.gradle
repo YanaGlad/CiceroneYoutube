@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.demodaggercicerone'
+    namespace 'com.example.cicerone'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.demodaggercicerone"
+        applicationId "com.example.cicerone"
         minSdk 26
         targetSdk 34
         versionCode 1
